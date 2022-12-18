@@ -1,0 +1,55 @@
+nav {
+    width: 100%;
+    display: flex;
+    background-color: rgb(20, 18, 32);
+    border-bottom: 4px solid rgb(144, 203, 223);
+    padding: 2px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;    
+    font-size: larger;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: cyan
+}
+
+nav li :hover{
+    color: aliceblue;
+    border-radius: 15%;
+}
+
+/*-----------------------------------------------DARK MODE------------------------*/
+
+.dark-mode{
+    position: relative;
+    padding-left: 30px;
+}
+
+.dark-mode div {
+    border-radius: 50px;
+}
+
+.dark-mode img {
+    width: 40px;
+}
+
+.dark-mode button {
+    background-color: transparent;
+    border: transparent;
+}
+
+.light{
+    position: absolute;
+    opacity: 0;
+}
+
+.dark {
+    z-index: 1;
+    opacity: 100;
+}
+/* ---------------------------------------------------------------------------------------*/

@@ -1,0 +1,67 @@
+@import url(CSS/animation.css);
+@import url(CSS/avatar.css);
+@import url(CSS/bouton.css);
+@import url(CSS/container.css);
+@import url(CSS/grid.css);
+@import url(CSS/images.css);
+@import url(CSS/label.css);
+@import url(CSS/navbar.css);
+
+body {
+    margin: 0;
+    color: whitesmoke;
+    background-color: rgb(20, 18, 32);
+}
+
+@media screen and (max-width: 1024px) {
+    p {
+        font-size: 14px;
+    }
+    .projets img{
+        max-height: 500px;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .animation{
+        height: 500px;
+    }
+    .cont {
+        flex-direction: column;
+    }
+
+    .avatar img {
+        max-width: 250px;
+    }
+    p {
+        font-size: 11px;
+    }
+
+    .projets {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .projets img{
+        max-height: 420px;
+        max-width: 250px;
+    }
+    .side {
+        border-left : 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cont {
+        flex-direction: column;
+    }
+    .avatar img{
+        max-width: 150px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .projets img{
+        max-height: 340px;
+        max-width: 180px;
+    }
+}

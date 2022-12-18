@@ -1,0 +1,22 @@
+.cont{
+    display: flex;
+    flex-direction: row;
+    margin-top: 53px;
+}
+
+.main {
+    padding-right: 5px;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    gap: 5px ;
+    border-left: 3px solid lightblue;
+    width: auto;
+}
+
+.side div {
+    margin-right: auto ;
+    margin-left: auto ;
+}
